@@ -25,14 +25,60 @@
       a {
         color: grey;
       }
+
+      a:hover {
+        color: white;
+      }
+
+      #screenshots img {
+        width: 120px;
+      }
+
+      #logo {
+        background: linear-gradient(#FFF, #F2EFEA, #FFF);
+        border-radius: 45px;
+      }
+
+      #title {
+        margin: 10px 0px;
+      }
+
+      #title h2 {
+        font-size: 2em;
+      }
+
+      #header, #footer, #screenshots {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <a href="./remote.html">Macaque Remote UserScript Manager</a>
-      <br>
-      <br>
-      <a href="./privacy.html">Macaque Privacy Policy</a>
+      <div id="header">
+        <img id="logo" src="./resources/macaque-logo.png" />
+        <div id="title">
+          <h2>Macaque</h2>
+          <h4>Safari UserScript Manager for iOS / iPadOS</h4>
+          </br>
+          </br>
+          <a href="./remote.html">Remote UserScript Manager</a>
+        </div>
+      </div>
+
+      <div id="screenshots">
+        <img src="./resources/screenshots/screenshot-1.PNG" />
+        <img src="./resources/screenshots/screenshot-2.PNG" />
+        <img src="./resources/screenshots/screenshot-3.PNG" />
+        <img src="./resources/screenshots/screenshot-4.PNG" />
+        <img src="./resources/screenshots/screenshot-5.PNG" />
+        <img src="./resources/screenshots/screenshot-6.PNG" />
+      </div>
+
+      <div id="footer">
+        <a href="./privacy.html">Macaque Privacy Policy</a>
+      </div>
     </div>
   </body>
 </html>
