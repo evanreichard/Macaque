@@ -40,8 +40,15 @@
         color: white;
       }
 
+      #screenshots {
+        overflow: auto;
+        padding: 10px;
+      }
+
       #screenshots img {
-        width: 120px;
+        width: 320px;
+        margin: 7px;
+        border-radius: 5px;
       }
 
       #logo {
@@ -57,10 +64,13 @@
         font-size: 2em;
       }
 
+      #header, #footer {
+        justify-content: space-evenly;
+      }
+
       #header, #footer, #screenshots {
         margin-top: 80px;
         display: flex;
-        justify-content: space-evenly;
       }
     </style>
   </head>
@@ -70,7 +80,7 @@
         <img id="logo" src="./resources/macaque-logo.png" />
         <div id="title">
           <h2>Macaque</h2>
-          <h4>Safari UserScript Manager for iOS / iPadOS</h4>
+          <h4>Safari UserScript Manager for iOS, iPadOS and macOS</h4>
           <a href="./remote.html">Remote UserScript Manager</a></br>
           <a href="https://apps.apple.com/us/app/macaque/id1595306197" target="_blank">
             <img src="./resources/app-store-badge.svg" style="margin-top: 40px;" />
@@ -80,11 +90,13 @@
 
       <div id="screenshots">
         <a href="./resources/screenshots/screenshot-1.PNG" data-title="UserScript Manager Page" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-1.PNG" /></a>
-        <a href="./resources/screenshots/screenshot-2.PNG" data-title="Base Template" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-2.PNG" /></a>
-        <a href="./resources/screenshots/screenshot-3.PNG" data-title="Example Test Code" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-3.PNG" /></a>
+        <a href="./resources/screenshots/screenshot-2.PNG" data-title="Editor with ESLint" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-2.PNG" /></a>
+        <a href="./resources/screenshots/screenshot-3.PNG" data-title="UserScript Configuration" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-3.PNG" /></a>
         <a href="./resources/screenshots/screenshot-4.PNG" data-title="GM API Tests" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-4.PNG" /></a>
-        <a href="./resources/screenshots/screenshot-5.PNG" data-title="Extension Icon" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-5.PNG" /></a>
-        <a href="./resources/screenshots/screenshot-6.PNG" data-title="Enable / Disable Popup" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-6.PNG" /></a>
+        <a href="./resources/screenshots/screenshot-5.PNG" data-title="Extension Popup" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-5.PNG" /></a>
+        <a href="./resources/screenshots/screenshot-6.PNG" data-title="GM Menu Command Example" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-6.PNG" /></a>
+        <a href="./resources/screenshots/screenshot-7.PNG" data-title="GM Menu Command Example" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-7.PNG" /></a>
+        <a href="./resources/screenshots/screenshot-8.PNG" data-title="UserScript Logs" data-lightbox="macaque"><img src="./resources/screenshots/screenshot-8.PNG" /></a>
       </div>
 
       <div id="footer">
